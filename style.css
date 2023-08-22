@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     background-image: url(./background-image.jpg);
@@ -34,8 +35,11 @@ body{
     display: inline;
     padding-right: 35px;
 }
-.header-content ul li:nth-child(1){
-    color:green;
+.header-content ul li a {
+    color: white;
+}
+.header-content ul li a:hover{
+    color:rgb(233, 110, 130);
 }
 hr{
     width: 100%;
@@ -63,4 +67,10 @@ hr{
     font-size: 17px;
     background-color: green;
     color: white;
+}
+.body-content button a{
+    color: white;
+}
+.body-content button a:hover{
+    color: rgb(226, 107, 126);
 }
